@@ -3,9 +3,10 @@ function dwarfRollCall(dwarves) {
   let listDwarves = [];
   for(let i = 0; i < dwarves.length; i++){
     
-    listDwarves.push(`${i+1}. ${dwarves[i]}`);
-    return listDwarves.join("");
+    listDwarves.push(`${i+1}. ${dwarves[i]} `);
+    
   }
+  return listDwarves.join("");
 }
 
 
